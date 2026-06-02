@@ -1,9 +1,23 @@
 baseURL = "https://paula-rusti.github.io/"
-languageCode = "en-us"
-title = "My Blog"
-theme = "PaperMod"
+locale = "en-us"
+title = "Paula Rusti"
+theme = "hermit"
 
 [params]
-  homeInfoParams = {Title = "Hi, I'm Paula 👋", Content = "Welcome to my blog."}
-  ShowReadingTime = true
-  ShowPostNavLinks = true
+  author = "Paula Rusti"
+  description = "Paula's personal blog"
+  since = "2026"
+  dateform = "Jan 2, 2006"
+  dateformShort = "Jan 2"
+  dateformNum = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04"
+
+[[menu.main]]
+  name = "Posts"
+  url = "/posts/"
+  weight = 10
+
+[[menu.main]]
+  name = "About"
+  url = "/about/"
+  weight = 20
